@@ -1,5 +1,5 @@
 const express = require("express");
-require('dotenv').config()
+require("dotenv").config();
 
 const app = express();
 
@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/cohorts", (req, res) => {
-  res.send("C14 and C13");
+  res.send("C14 and C13, and C12");
 });
 
 app.listen(PORT, () => {
